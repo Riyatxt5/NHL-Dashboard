@@ -1,0 +1,209 @@
+/* =========================================================
+   NHL DASHBOARD THEME
+   ICE BLUE + NAVY
+   ========================================================= */
+
+
+/* =========================================================
+   MAIN BACKGROUND
+   ========================================================= */
+
+.stApp {
+    background-color: #F5F9FC;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* =========================================================
+   PAGE TITLES
+   ========================================================= */
+
+h1 {
+    color: #0B1F3A !important;
+    font-weight: 700;
+}
+
+h2 {
+    color: #0B1F3A !important;
+    font-weight: 650;
+}
+
+h3 {
+    color: #0B1F3A !important;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+section[data-testid="stSidebar"] {
+    background-color: #0B1F3A !important;
+}
+
+section[data-testid="stSidebar"] > div {
+    background-color: #0B1F3A !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #FFFFFF;
+}
+
+
+/* =========================================================
+   SIDEBAR MENU
+   ========================================================= */
+
+section[data-testid="stSidebar"] .nav-link {
+    color: #FFFFFF !important;
+    border-radius: 8px;
+    margin: 4px 0;
+}
+
+section[data-testid="stSidebar"] .nav-link:hover {
+    background-color: #1E88E5 !important;
+    color: #FFFFFF !important;
+}
+
+section[data-testid="stSidebar"] .nav-link-selected {
+    background-color: #1E88E5 !important;
+    color: #FFFFFF !important;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   SELECTBOX
+   ========================================================= */
+
+div[data-baseweb="select"] > div {
+    background-color: #FFFFFF !important;
+    border-color: #1E88E5 !important;
+    border-radius: 8px;
+}
+
+div[data-baseweb="select"] > div:focus-within {
+    border-color: #1E88E5 !important;
+    box-shadow: 0 0 0 1px #1E88E5 !important;
+}
+
+
+/* =========================================================
+   TEXT INPUT
+   ========================================================= */
+
+div[data-baseweb="input"] > div {
+    background-color: #FFFFFF !important;
+    border-color: #1E88E5 !important;
+    border-radius: 8px;
+}
+
+
+/* =========================================================
+   KPI / METRIC CARDS
+   ========================================================= */
+
+div[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    border: 1px solid #D6EAF8;
+    border-left: 4px solid #1E88E5;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(11, 31, 58, 0.08);
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #0B1F3A !important;
+    font-weight: 600;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #1E88E5 !important;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   CONTAINERS / CARDS
+   ========================================================= */
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: #FFFFFF;
+    border: 1px solid #D6EAF8;
+    border-radius: 10px;
+}
+
+
+/* =========================================================
+   DATAFRAME / TABLE
+   ========================================================= */
+
+div[data-testid="stDataFrame"] {
+    border: 1px solid #D6EAF8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+div.stButton > button {
+    background-color: #1E88E5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+div.stButton > button:hover {
+    background-color: #0B1F3A;
+    color: #FFFFFF;
+}
+
+
+/* =========================================================
+   RADIO BUTTONS
+   ========================================================= */
+
+div[data-testid="stRadio"] label {
+    color: #0B1F3A !important;
+}
+
+
+/* =========================================================
+   DIVIDERS
+   ========================================================= */
+
+hr {
+    border-color: #D6EAF8 !important;
+}
+
+
+/* =========================================================
+   ALERT BOXES
+   ========================================================= */
+
+div[data-testid="stAlert"] {
+    border-radius: 8px;
+}
+
+
+/* =========================================================
+   GENERAL TEXT
+   ========================================================= */
+
+p {
+    color: #263238;
+}
